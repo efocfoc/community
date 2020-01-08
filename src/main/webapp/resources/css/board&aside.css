@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.box{
+	width: 950px; height: 600px;
+	margin-left: 20%;
+}
+
+content {
+	float:left;
+}
+
+aside{
+	float:right;
+}
+
+
+
+
+.js-load {
+    display: none;
+
+}
+.js-load.active {
+    display: block;
+}
+.is_comp.js-load:after {
+    display: none;
+}
+.btn-wrap, .lists, .main {
+    display: block;
+}
+.main {
+	min-width:50%;
+    margin: 0 auto;
+}
+
+.lists {
+    margin-bottom: 4rem;
+}
+.lists__item {
+	
+    padding: 20px!important;
+	
+   
+   
+	
+	border:1px solid #dfdfdf;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	margin-bottom:5px;
+	
+	width:600px;
+	max-height:250px;
+    background: white;
+}
+
+.content{
+	 white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+     white-space: normal;
+     max-height:150px;
+}
+
+.btn-wrap {
+    text-align: center;
+}
+
+/*글쓰기*/
+.aside{
+	
+	margin-top:15px;
+	
+	padding:15px;
+	width:250px;
+	
+	border:1px solid #dfdfdf;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	
+	 background: white;
+	
+}
+
+.postButton{
+	width:100%;
+	height:30px;
+  
+  	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	
+	margin-top:10px;
+	
+	background: #fffa77;
+	color: #4f5b66;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.postButton:hover {
+	background: #fff72e;
+	color: black;
+	cursor:pointer;
+}
